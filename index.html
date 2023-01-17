@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- One platform for all music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Logo.png "alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Your Best Songs of 2022</h1>
+            <div id="songC">
+                <div class="songItem">
+                    <span class="play"><i id="0" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                    <img src="cover1.jpg" alt="1">
+                    <span class="songName">Divinity</span>
+                    <span class="songTime">6:08</span>
+                </div>
+                <div class="songItem">
+                    <span class="play"><i id="1"  class="fa-regular songItemPlay fa-circle-play"></i></span>
+                    <img src="cover2.jpg" alt="2">
+                    <span class="songName">Wait</span>
+                    <span class="songTime">5:43</span>
+                </div>
+                <div class="songItem">
+                    <span class="play"><i id="2"  class="fa-regular songItemPlay fa-circle-play"></i></span>
+                    <img src="cover3.jpg" alt="3">
+                    <span class="songName">Good Things fall apart</span>
+                    <span class="songTime">6:06</span>
+                </div>
+                <div class="songItem">
+                    <span class="play"><i id="3"  class="fa-regular songItemPlay fa-circle-play"></i></span>
+                    <img src="cover4.jpg" alt="4">
+                    <span class="songName">Xannax</span>
+                    <span class="songTime">2:28</span>
+                </div>
+                <div class="songItem">
+                    <span class="play"><i id="4"  class="fa-regular songItemPlay fa-circle-play"></i></span>
+                    <img src="cover5.jpg" alt="5">
+                    <span class="songName">The night we met</span>
+                    <span class="songTime">3:30</span>
+                </div>
+                <div class="songItem">
+                    <span class="play"><i id="5"  class="fa-regular songItemPlay fa-circle-play"></i></span>
+                    <img src="cover6.png" alt="6">
+                    <span class="songName">After Hours</span>
+                    <span class="songTime">6:01</span>
+                </div>
+                <div class="songItem">
+                    <span class="play"><i id="6"  class="fa-regular fa-circle-play"></i></span>
+                    <img src="cover7.png" alt="7">
+                    <span class="songName">Starboy</span>
+                    <span class="songTime">3:30</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward"id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+    </div>
+    <div class="songInfo">
+        <img src="gif2.gif" width="50px" alt="" id="gif"> <span id="nowplaying"></span>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/307457344d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
